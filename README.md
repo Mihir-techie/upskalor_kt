@@ -86,19 +86,10 @@ The system tracks several wellness metrics:
 - **Emotion Score**: Normalized emotional state
 
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built as part of the Upskolor KT program
 - Uses open-source AI and wellness technologies
 - Community-driven wellness insights
 
-## 📞 Support
 
-For support and questions:
-- Open an issue on GitHub
-- Check the documentation in the `day6/rag_documentation.md`
-- Review the knowledge base in `day6/knowledge_base/`
-
----
-
-**Note**: This AI system is designed for wellness coaching and is not a substitute for professional medical advice. In case of emergencies, please contact local emergency services.
