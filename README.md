@@ -9,25 +9,6 @@ A comprehensive wellness tracking and emotional intelligence system that helps u
 - **AI-Powered Wellness Advice**: Provides personalized recommendations using RAG technology
 - **Knowledge Base Management**: Maintains structured wellness information and policies
 
-## 📁 Project Structure
-
-```
-├── day2/
-│   ├── baseline_engine.py      # Emotional baseline calculation engine
-│   └── fitlife_emotional_dataset.csv  # Sample wellness dataset
-├── day3/
-│   └── drift_detector.py      # Mood drift detection algorithms
-├── day6/
-│   ├── rag.py                 # RAG system for wellness advice
-│   ├── rag_documentation.md   # RAG system documentation
-│   ├── knowledge_base/        # Wellness knowledge base
-│   └── document_index.faiss/  # Vector index for semantic search
-├── requirements.txt           # Python dependencies
-└── README.md                  # This file
-```
-
-## 🚀 Getting Started
-
 ### Prerequisites
 
 - Python 3.8+
@@ -49,8 +30,6 @@ pip install -r requirements.txt
 3. Set up environment variables:
 ```bash
 cp .env.example .env
-# Edit .env with your API keys if needed
-```
 
 ### Usage
 
@@ -106,17 +85,6 @@ The system tracks several wellness metrics:
 - **Stress Level**: Current stress intensity
 - **Emotion Score**: Normalized emotional state
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
