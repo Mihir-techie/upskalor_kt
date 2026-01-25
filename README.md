@@ -60,8 +60,6 @@ pip install -r requirements.txt
 4. Set up environment variables (optional for OpenAI):
 ```bash
 cp .env.example .env
-# Edit .env with your API keys if needed
-```
 
 ### Running All Components
 
@@ -145,31 +143,11 @@ The system tracks several wellness metrics:
 - **Stress Level**: Current stress intensity
 - **Emotion Score**: Normalized emotional state
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built as part of the Upskolor KT program
 - Uses open-source AI and wellness technologies
 - Community-driven wellness insights
 
-## 📞 Support
 
-For support and questions:
-- Open an issue on GitHub
-- Check the documentation in the `day6/rag_documentation.md`
-- Review the knowledge base in `day6/knowledge_base/`
-
----
-
-**Note**: This AI system is designed for wellness coaching and is not a substitute for professional medical advice. In case of emergencies, please contact local emergency services.
