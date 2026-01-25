@@ -69,7 +69,7 @@ print("Generating Embeddings ")
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 vectorstore = FAISS.from_documents(chunks, embeddings)
-INDEX_PATH = 'document_index.faiss'
+INDEX_PATH = '../day7/faiss_index'
 vectorstore.save_local(INDEX_PATH, index_name="document_index")
 
 print(f"Successfully created Wellness Index at {INDEX_PATH}")
